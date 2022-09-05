@@ -2,9 +2,8 @@
 
 div{
     color: white;
-    background-color: black;
-}
+    background-color: red;
+    font-size: 32px
+    bold
 
-p{
-    color: red;
 }
