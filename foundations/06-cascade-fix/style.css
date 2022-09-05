@@ -16,10 +16,14 @@ body{
  /* simple cut and paste switch .para before .small-para */
 }
 
-.confirm {
-  background: green;
+#confirm-button {
+  background-color: green;
   color: white;
   font-weight: bold;
+  /* I'm an idiot. I was right about everything I suspected was
+  wrong but wrong on how to combine them together. background was
+  missing `-color` selector was using a period instead of a hashtag and
+  was also using incomplete ID selector name "confirm-button"*/
 } 
 
 .button {
@@ -34,7 +38,7 @@ body{
   font-size: 14px;
 }
 
-div.text {
+div.text child {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
