@@ -9,7 +9,7 @@ body {
 .header {
   display: flex;
   align-items: center;
-  padding-left: 0 16px;
+  padding: 0 16px;
   font-size: 32px;
   font-weight: 900;
   height: 72px;
