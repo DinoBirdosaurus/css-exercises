@@ -1,16 +1,40 @@
 body {
+  text-align: center;
   font-family: 'Courier New', Courier, monospace;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  
+}
+.plants {
+  display: flex;
+  align-content: center;
+  gap: 52px;
+  
+}
+
+.plant {
+  width: 200px;
+}
+
+.text {
+  word-wrap: break-word;
+}
+
 img {
+  align-content: center;
   width: 100px;
   height: 100px;
 }
 
 .title {
+  margin-bottom: 32px;
   font-size: 36px;
   font-weight: 900;
 }
+
 
 /* do not edit this footer */
 .footer {
